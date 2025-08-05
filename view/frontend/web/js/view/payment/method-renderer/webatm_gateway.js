@@ -11,14 +11,16 @@ define(
     function (Component) {
         'use strict';
 
-        return Component.extend({
-            defaults: {
-                template: 'Ecpay_WebatmPaymentGateway/payment/form'
-            },
+        return Component.extend(
+            {
+                defaults: {
+                    template: 'Ecpay_WebatmPaymentGateway/payment/form'
+                },
 
-            getCode: function() {
-                return 'ecpay_webatm_gateway';
+                getCode: function () {
+                    return 'ecpay_webatm_gateway';
+                }
             }
-        });
+        );
     }
 );

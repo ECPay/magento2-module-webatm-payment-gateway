@@ -20,7 +20,10 @@ define(
                 component: 'Ecpay_WebatmPaymentGateway/js/view/payment/method-renderer/webatm_gateway'
             }
         );
-        /** Add view logic here if needed */
+        /**
+    * 
+    * Add view logic here if needed 
+    */
         return Component.extend({});
     }
 );
